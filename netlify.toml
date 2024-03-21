@@ -21,7 +21,6 @@ command = "hugo --gc --minify --source exampleSite --themesDir ../../ -t repo --
 HUGO_VERSION = "0.74.3"
 
 [[redirects]]
-  from = "https://chafux.netlify.app/*"
-  to = "https://chafux.com/:splat"
+  from = "/*"
+  to = "/index.html"
   status = 301
-  force = true
