@@ -22,5 +22,5 @@ HUGO_VERSION = "0.74.3"
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "https://chafux.com"
   status = 301
